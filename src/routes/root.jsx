@@ -1,8 +1,11 @@
+import React from "react";
+import Home from "../components/Home";
+
+
 export default function Root() {
     return (
         <div>
-            <h1> HELLOOO</h1>
-            <p>howdy</p>
-      </div>
+            <Home />
+        </div>
     );
 }
